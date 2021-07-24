@@ -2,7 +2,7 @@
 
 ## Web Scraping with Python Selenium
 
-for my flutter project I need a lot of questions and I cannot write them manually.
+for my flutter project I need a lot of questions and I could not write them manually.
 To solve this problem I used Python-Selenium.
 
 <br/><br/>
