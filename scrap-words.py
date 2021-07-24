@@ -46,6 +46,7 @@ def scrapWords(choice):
 while True:
 
     try:
+        print("Choose level")
         option = int(input("[1] A1\n[2] A2\n[3] B1\n[4] B2\n[5] C1\n\noption:"))
         if option > 6 or option < 1:
             print("\nChoice must be 1 or 2!!!!!!!!!! \n")
