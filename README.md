@@ -31,5 +31,5 @@ class Question {
 <img src="https://github.com/alissorucu/scraping_words_and_definitons/blob/main/images/first.png" width="300" />          <img src="https://github.com/alissorucu/scraping_words_and_definitons/blob/main/images/second.png" width="300" />
 
 <br/><br/>
-#### My data: 
+#### Example of My data: 
 <img src="https://github.com/alissorucu/scraping_words_and_definitons/blob/main/images/data.png" width="1000" /> 
