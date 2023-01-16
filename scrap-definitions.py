@@ -1,6 +1,7 @@
+import random
+
 import selenium.common.exceptions
 from selenium import webdriver
-import random
 
 driver = webdriver.Chrome()
 words = [

@@ -1,25 +1,26 @@
-from selenium import webdriver
 import time
+
+from selenium import webdriver
 
 driver = webdriver.Chrome()
 
 
 def scrapWords(choice):
-    driver.get("https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000")
+
     driver.find_element_by_xpath("//*[@id='wordlistsFilters']").click()
-    driver.find_element_by_xpath("//*[@id='filterList']").click()
-    driver.find_element_by_xpath("//*[@id='filterList']/option[1]").click()
-    driver.find_element_by_xpath("//*[@id='ox5000']/ul/li[1]").click()
+    #driver.find_element_by_xpath("//*[@id='filterList']").click()
+    #driver.find_element_by_xpath("//*[@id='filterList']/option[1]").click()
+    driver.find_element_by_xpath("//*[@id='ox3000']/ul/li[1]").click()
     if choice == 1:
-        driver.find_element_by_xpath("//*[@id='ox5000']/ul/li[2]").click()
+        driver.find_element_by_xpath("//*[@id='ox3000']/ul/li[2]").click()
     elif choice == 2:
-        driver.find_element_by_xpath("//*[@id='ox5000']/ul/li[3]").click()
+        driver.find_element_by_xpath("//*[@id='ox3000']/ul/li[3]").click()
     elif choice == 3:
-        driver.find_element_by_xpath("//*[@id='ox5000']/ul/li[4]").click()
+        driver.find_element_by_xpath("//*[@id='ox3000']/ul/li[4]").click()
     elif choice == 4:
-        driver.find_element_by_xpath("//*[@id='ox5000']/ul/li[5]").click()
+        driver.find_element_by_xpath("//*[@id='ox3000']/ul/li[5]").click()
     elif choice == 5:
-        driver.find_element_by_xpath("//*[@id='ox5000']/ul/li[6]").click()
+        driver.find_element_by_xpath("//*[@id='ox3000']/ul/li[6]").click()
 
 
 
@@ -42,7 +43,7 @@ def scrapWords(choice):
 
     driver.close()
 
-
+driver.get("https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000")
 while True:
 
     try:
